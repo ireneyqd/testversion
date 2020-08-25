@@ -59,6 +59,10 @@ func Fatalln(args ...interface{}) {
 	jloggerInstance.fatalln(args...)
 }
 
+func Error(args ...interface{}) {
+	jloggerInstance.error(args...)
+}
+
 //func (j *jlogger) trace(args ...interface{}) {
 //	j.sugar.d
 //}
